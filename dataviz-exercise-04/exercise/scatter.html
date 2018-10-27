@@ -13,11 +13,11 @@
 </head>
 <body>
 
-<svg id="plot" viewBox="-10 -10 220 120" width="100%" height="auto">
+<svg id="plot" viewBox="-10 -10 220 120" width="80%" height="80%">
 	<style>
 		.axis {
-			stroke-width: 1;
-			stroke: rgb(200, 200, 200);
+			stroke-width: 0.25;
+			stroke: rgb(255, 255, 255);
 		}
 		text {
 			fill: rgb(200, 200, 200);
@@ -47,8 +47,10 @@ D3.js fails to load in module mode
 <script type="module" src="lib/d3.min.js"></script>
 <script type="module" src="BarChart.js"></script>
  -->
-<script src="lib/d3.min.js"></script>
+
 <!-- <script src="BarChart.js"></script> -->
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://cdn.jsdelivr.net/lodash/4/lodash.min.js"></script>
 <script src="exercise.js"></script>
 </body>
 </html>

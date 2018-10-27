@@ -5,21 +5,11 @@
 
 .temperatures {
 	display: flex;
-	flex-flow; row wrap;
+	flex-flow: row wrap;
 	justify-content: space-between;
-	
+
 	font-size: 1.3rem;
 }
-.warm { 
-	background-color: coral;
- }
- .cold { 
-	background-color: plum;
- }
-
- .white { 
-	background-color: white;
- }
 
 .temperatures > * {
 	flex-grow: 1;
@@ -29,7 +19,6 @@
 	text-align: center;
 	font-weight: bold;
 }
-
 
 #query-city {
 	padding: 0.25rem;
@@ -46,5 +35,11 @@
 	border-radius: 0;
 }
 
-/* add the cold and warm classes here */
+.cold {
+	background: rgb(179, 189, 250);
+}
+
+.warm {
+	background: rgb(255, 180, 168);
+}
 
